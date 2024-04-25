@@ -1,0 +1,201 @@
+@import './base.css';
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+/* datePicker样式调整 */
+.el-date-picker.has-sidebar {
+  width: 322px;
+  padding-bottom: 30px;
+  .el-picker-panel__body {
+    margin-left: 0;
+  }
+  .el-picker-panel__sidebar {
+    top: unset;
+    left: 0;
+    padding: 4px 0 6px 0;
+    border-right: none;
+    border-top: 1px solid var(--el-datepicker-inner-border-color);
+    width: 100%;
+    .el-picker-panel__shortcut {
+      text-align: center;
+      color: var(--el-color-primary);
+    }
+  }
+}
+
+.pi-is-required::before {
+  content: '*';
+  color: var(--el-color-danger);
+  position: absolute;
+  transform: translateX(-10px);
+}
+
+/* drawer样式调整 */
+.el-drawer__header {
+  padding: 12px 20px;
+  color: #333;
+  border-bottom: 1px solid #dedede;
+  .el-drawer__title {
+    font-size: var(--el-font-size-medium);
+    color: #333;
+  }
+}
+.el-dialog__header {
+  border-bottom: 1px solid #dedede;
+  margin-right: 0;
+  .el-dialog__title {
+    font-size: var(--el-font-size-medium);
+    color: #333;
+  }
+}
+.el-drawer__footer {
+  border-top: 1px solid #dedede;
+  padding: 10px 20px;
+}
+.el-dialog__body {
+  padding: var(--el-dialog-padding-primary);
+}
+
+/* ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #d8d8d8;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.01);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: rgba(0,0,0,0.15);
+}
+::-webkit-scrollbar-thumb:active{
+  background: #d8d8d8;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0,0,0,0.1);
+} */
+/* 滚动条优化 start */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-corner {
+  background: #fff;
+}
+::-webkit-scrollbar{
+    height: 10px !important;
+    width: 15px !important;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: rgba(157, 165, 183, 0.4);
+    border-color: transparent;
+    border-width: 2px;
+    background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(157, 165, 183, 0.4)
+}
+ /* 滚动条优化 end */
+
+/* table样式调整 */
+.el-table {
+  --el-table-header-bg-color: #f6f6f6;
+  --el-table-header-text-color: #333;
+  --el-table-text-color: #666;
+  .el-table__header {
+    .cell {
+      font-weight: normal;
+    }
+  }
+}
+.el-input.is-disabled .el-input__inner {
+  color: #666;
+  -webkit-text-fill-color: #666;
+}
+/* transition slide-fade动画效果 */
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.up-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.up-fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.up-fade-enter-from,
+.up-fade-leave-to {
+  transform: translateY(20px);
+  opacity: 0;
+}
+.-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.disappear-fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.disappear-fade-enter-from,
+.disappear-fade-leave-to {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.page_common {
+  margin: 0 16px;
+  width: calc(100% - 32px);
+  
+}
+
+.bg_css {
+  padding: 16px;
+  background: #fff;
+  height: calc(100vh - 116px);
+}
+
+.el-select__popper.select_class {
+  max-width: 100% !important;
+}
+.el-select__popper.hand_select .el-select-dropdown .el-scrollbar .el-select-dropdown__wrap {
+  max-height: 400px !important;
+}
+
+.state-wrapper {
+  max-width: 100px;
+  padding: 2px 10px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}

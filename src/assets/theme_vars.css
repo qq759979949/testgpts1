@@ -1,0 +1,72 @@
+html.baomu {
+  --el-color-primary: #f5222d;
+  --el-color-primary-light-3: #f7646c;
+  --el-color-primary-light-5: #fa9096;
+  --el-color-primary-light-7: #fcbcc0;
+  --el-color-primary-light-8: #fdd3d5;
+  --el-color-primary-light-9: #fee8ea;
+  --el-color-primary-dark-2: #dc2029;
+}
+html.houshan {
+  --el-color-primary: #FA541C;
+  --el-color-primary-light-3: #fb8760;
+  --el-color-primary-light-5: #fca98d;
+  --el-color-primary-light-7: #fdcbba;
+  --el-color-primary-light-8: #feddd2;
+  --el-color-primary-light-9: #feeee8;
+  --el-color-primary-dark-2: #de4917;
+}
+html.rimu {
+  --el-color-primary: #FAAD14;
+  --el-color-primary-light-3: #fbc55a;
+  --el-color-primary-light-5: #fcd689;
+  --el-color-primary-light-7: #fde6b8;
+  --el-color-primary-light-8: #feefd0;
+  --el-color-primary-light-9: #fef7e7;
+  --el-color-primary-dark-2: #d39312;
+}
+html.mingqing {
+  --el-color-primary: #13c2c2;
+  --el-color-primary-light-3: #59d4d4;
+  --el-color-primary-light-5: #89e0e0;
+  --el-color-primary-light-7: #b8eded;
+  --el-color-primary-light-8: #d0f3f3;
+  --el-color-primary-light-9: #e7f9f9;
+  --el-color-primary-dark-2: #0e9090;
+}
+html.jiguanglv {
+  --el-color-primary: #52C41A;
+  --el-color-primary-light-3: #86d65e;
+  --el-color-primary-light-5: #a8e18c;
+  --el-color-primary-light-7: #a8e18c;
+  --el-color-primary-light-8: #dcf3d1;
+  --el-color-primary-light-9: #edf9e8;
+  --el-color-primary-dark-2: #3e9513;
+}
+html.fuxiaolan {
+  --el-color-primary: #386bd7;
+  --el-color-primary-light-3: #7397e3;
+  --el-color-primary-light-5: #9bb5eb;
+  --el-color-primary-light-7: #c3d2f3;
+  --el-color-primary-light-8: #d7e1f7;
+  --el-color-primary-light-9: #ebf0fb;
+  --el-color-primary-dark-2: #3059b2;
+}
+html.jiangzi {
+  --el-color-primary: #722ED1;
+  --el-color-primary-light-3: #9c6cdf;
+  --el-color-primary-light-5: #b896e8;
+  --el-color-primary-light-7: #d4c0f1;
+  --el-color-primary-light-8: #e3d5f6;
+  --el-color-primary-light-9: #f1eafa;
+  --el-color-primary-dark-2: #5925a2;
+}
+html.qinglv {
+  --el-color-primary: #4FC08D;
+  --el-color-primary-light-3: #83d3af;
+  --el-color-primary-light-5: #a7dfc6;
+  --el-color-primary-light-7: #caecdd;
+  --el-color-primary-light-8: #dcf2e8;
+  --el-color-primary-light-9: #dcf2e8;
+  --el-color-primary-dark-2: #42a277;
+}

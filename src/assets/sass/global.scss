@@ -1,0 +1,28 @@
+
+$list: 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 30, 36, 40;
+@each $i in $list {
+	.pt#{$i} {
+		padding-top: #{$i}px;
+	}
+	.pr#{$i} {
+		padding-right: #{$i}px;
+	}
+	.pb#{$i} {
+		padding-bottom: #{$i}px;
+	}
+	.pl#{$i} {
+		padding-left: #{$i}px;
+	}
+	.mt#{$i} {
+		margin-top: #{$i}px;
+	}
+	.mr#{$i} {
+		margin-right: #{$i}px;
+	}
+	.mb#{$i} {
+		margin-bottom: #{$i}px;
+	}
+	.ml#{$i} {
+		margin-left: #{$i}px;
+	}
+};

@@ -1,0 +1,1 @@
+export const PLM_BASE_URL = '/plmPortal/Windchill/servlet/gwc/solution'
